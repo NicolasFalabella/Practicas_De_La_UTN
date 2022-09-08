@@ -1,0 +1,4 @@
+20:24:10 **** Incremental Build of configuration Debug for project ejercicio_ejemplo_arrays7-9-22 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio_ejemplo_arrays7-9-22.o" "..\\src\\ejercicio_ejemplo_arrays7-9-22.c" 
+gcc -o ejercicio_ejemplo_arrays7-9-22.exe "src\\ejercicio_ejemplo_arrays7-9-22.o" 
