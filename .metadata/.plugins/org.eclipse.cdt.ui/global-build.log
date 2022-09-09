@@ -1,4 +1,55 @@
-20:24:10 **** Incremental Build of configuration Debug for project ejercicio_ejemplo_arrays7-9-22 ****
+19:41:35 **** Rebuild of configuration Debug for project ejercicio4-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio_ejemplo_arrays7-9-22.o" "..\\src\\ejercicio_ejemplo_arrays7-9-22.c" 
-gcc -o ejercicio_ejemplo_arrays7-9-22.exe "src\\ejercicio_ejemplo_arrays7-9-22.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio4-2.o" "..\\src\\ejercicio4-2.c" 
+..\src\ejercicio4-2.c: In function 'main':
+..\src\ejercicio4-2.c:36:17: warning: 'temperatura' is used uninitialized in this function [-Wuninitialized]
+   36 |  temperatura2 = validaciones(temperatura);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\ejercicio4-2.c:39:26: warning: 'gradosTemperaturaC' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   39 |   temperaturaValidadaC = validacionesGradosC(gradosTemperaturaC);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\ejercicio4-2.c:43:26: warning: 'gradosTemperaturaF' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   43 |   temperaturaValidadaF = validacionesGradosF(gradosTemperaturaF);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones.o" "..\\src\\funciones.c" 
+gcc -o ejercicio4-2.exe "src\\ejercicio4-2.o" "src\\funciones.o" 
+19:42:54 **** Incremental Build of configuration Debug for project ejercicio4-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio4-2.o" "..\\src\\ejercicio4-2.c" 
+..\src\ejercicio4-2.c: In function 'main':
+..\src\ejercicio4-2.c:37:9: warning: too many arguments for format [-Wformat-extra-args]
+   37 |  printf("--", temperatura2);
+      |         ^~~~
+..\src\ejercicio4-2.c:38:9: warning: too many arguments for format [-Wformat-extra-args]
+   38 |  printf("--", temperaturaValidadaC);
+      |         ^~~~
+..\src\ejercicio4-2.c:39:9: warning: too many arguments for format [-Wformat-extra-args]
+   39 |  printf("--", temperaturaValidadaC);
+      |         ^~~~
+..\src\ejercicio4-2.c:36:17: warning: 'temperatura' is used uninitialized in this function [-Wuninitialized]
+   36 |  temperatura2 = validaciones(temperatura);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\ejercicio4-2.c:38:2: warning: 'temperaturaValidadaC' is used uninitialized in this function [-Wuninitialized]
+   38 |  printf("--", temperaturaValidadaC);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\ejercicio4-2.c:42:26: warning: 'gradosTemperaturaC' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   42 |   temperaturaValidadaC = validacionesGradosC(gradosTemperaturaC);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\ejercicio4-2.c:46:26: warning: 'gradosTemperaturaF' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   46 |   temperaturaValidadaF = validacionesGradosF(gradosTemperaturaF);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o ejercicio4-2.exe "src\\ejercicio4-2.o" "src\\funciones.o" 
+19:43:06 **** Incremental Build of configuration Debug for project ejercicio4-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio4-2.o" "..\\src\\ejercicio4-2.c" 
+..\src\ejercicio4-2.c: In function 'main':
+..\src\ejercicio4-2.c:36:17: warning: 'temperatura' is used uninitialized in this function [-Wuninitialized]
+   36 |  temperatura2 = validaciones(temperatura);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\ejercicio4-2.c:39:26: warning: 'gradosTemperaturaC' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   39 |   temperaturaValidadaC = validacionesGradosC(gradosTemperaturaC);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\ejercicio4-2.c:43:26: warning: 'gradosTemperaturaF' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   43 |   temperaturaValidadaF = validacionesGradosF(gradosTemperaturaF);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o ejercicio4-2.exe "src\\ejercicio4-2.o" "src\\funciones.o" 
