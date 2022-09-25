@@ -1,55 +1,78 @@
-19:41:35 **** Rebuild of configuration Debug for project ejercicio4-2 ****
+22:37:03 **** Rebuild of configuration Debug for project TP1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio4-2.o" "..\\src\\ejercicio4-2.c" 
-..\src\ejercicio4-2.c: In function 'main':
-..\src\ejercicio4-2.c:36:17: warning: 'temperatura' is used uninitialized in this function [-Wuninitialized]
-   36 |  temperatura2 = validaciones(temperatura);
-      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio4-2.c:39:26: warning: 'gradosTemperaturaC' may be used uninitialized in this function [-Wmaybe-uninitialized]
-   39 |   temperaturaValidadaC = validacionesGradosC(gradosTemperaturaC);
-      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio4-2.c:43:26: warning: 'gradosTemperaturaF' may be used uninitialized in this function [-Wmaybe-uninitialized]
-   43 |   temperaturaValidadaF = validacionesGradosF(gradosTemperaturaF);
-      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones.o" "..\\src\\funciones.c" 
-gcc -o ejercicio4-2.exe "src\\ejercicio4-2.o" "src\\funciones.o" 
-19:42:54 **** Incremental Build of configuration Debug for project ejercicio4-2 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+22:44:10 **** Incremental Build of configuration Debug for project TP1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio4-2.o" "..\\src\\ejercicio4-2.c" 
-..\src\ejercicio4-2.c: In function 'main':
-..\src\ejercicio4-2.c:37:9: warning: too many arguments for format [-Wformat-extra-args]
-   37 |  printf("--", temperatura2);
-      |         ^~~~
-..\src\ejercicio4-2.c:38:9: warning: too many arguments for format [-Wformat-extra-args]
-   38 |  printf("--", temperaturaValidadaC);
-      |         ^~~~
-..\src\ejercicio4-2.c:39:9: warning: too many arguments for format [-Wformat-extra-args]
-   39 |  printf("--", temperaturaValidadaC);
-      |         ^~~~
-..\src\ejercicio4-2.c:36:17: warning: 'temperatura' is used uninitialized in this function [-Wuninitialized]
-   36 |  temperatura2 = validaciones(temperatura);
-      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio4-2.c:38:2: warning: 'temperaturaValidadaC' is used uninitialized in this function [-Wuninitialized]
-   38 |  printf("--", temperaturaValidadaC);
-      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio4-2.c:42:26: warning: 'gradosTemperaturaC' may be used uninitialized in this function [-Wmaybe-uninitialized]
-   42 |   temperaturaValidadaC = validacionesGradosC(gradosTemperaturaC);
-      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio4-2.c:46:26: warning: 'gradosTemperaturaF' may be used uninitialized in this function [-Wmaybe-uninitialized]
-   46 |   temperaturaValidadaF = validacionesGradosF(gradosTemperaturaF);
-      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o ejercicio4-2.exe "src\\ejercicio4-2.o" "src\\funciones.o" 
-19:43:06 **** Incremental Build of configuration Debug for project ejercicio4-2 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+22:47:00 **** Incremental Build of configuration Debug for project TP1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio4-2.o" "..\\src\\ejercicio4-2.c" 
-..\src\ejercicio4-2.c: In function 'main':
-..\src\ejercicio4-2.c:36:17: warning: 'temperatura' is used uninitialized in this function [-Wuninitialized]
-   36 |  temperatura2 = validaciones(temperatura);
-      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio4-2.c:39:26: warning: 'gradosTemperaturaC' may be used uninitialized in this function [-Wmaybe-uninitialized]
-   39 |   temperaturaValidadaC = validacionesGradosC(gradosTemperaturaC);
-      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio4-2.c:43:26: warning: 'gradosTemperaturaF' may be used uninitialized in this function [-Wmaybe-uninitialized]
-   43 |   temperaturaValidadaF = validacionesGradosF(gradosTemperaturaF);
-      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o ejercicio4-2.exe "src\\ejercicio4-2.o" "src\\funciones.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+22:48:25 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+22:49:57 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+22:51:21 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+22:55:42 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+22:56:55 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+Info: Nothing to build for TP1
+23:00:50 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+23:02:40 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+23:13:31 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file TP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:13:42 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+23:20:30 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+23:22:25 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
+19:53:23 **** Incremental Build of configuration Debug for project TP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP1.o" "..\\src\\TP1.c" 
+gcc -o TP1.exe "src\\TP1.o" 
+Info: Nothing to build for TP1
